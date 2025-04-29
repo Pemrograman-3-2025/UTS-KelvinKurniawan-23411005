@@ -12,5 +12,5 @@ $connect = mysqli_connect(
 );
 
 if (!$connect) {
-    die("Failed to connecting database" . mysqli_connect_error());
+    die("Gagal Tersambung ke Database" . mysqli_connect_error());
 }
